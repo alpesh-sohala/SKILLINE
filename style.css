@@ -36,7 +36,7 @@
         .left {
             height: 83px;
             width: 83px;
-            background-image: url(/img/Polygon\ 1.png);
+            background-image: url(img/Polygon\ 1.png);
             background-size: cover;
             display: flex;
         }
@@ -203,7 +203,7 @@
             height: 32px;
             left: 30px;
             top: 25px;
-            background-image: url(/img/Polygon\ 2\ \(1\).png);
+            background-image: url(img/Polygon\ 2\ \(1\).png);
             background-size: contain;
             background-repeat: no-repeat;
         }
@@ -916,7 +916,7 @@
            .left-footer { 
             height: 157px;
             width: 94px;
-            /* background-image: url(/img/Polygon\ 2.png); */
+            /* background-image: url(img/Polygon\ 2.png); */
             /* background-size: contain; */
             /* background-repeat: no-repeat; */
             position: relative;
@@ -964,7 +964,7 @@
         width: 86px;
         height: 85px;
         left: -38px;
-        background-image: url(/img/Polygon\ 2.png);
+        background-image: url(img/Polygon\ 2.png);
         background-size: contain;
         background-repeat: no-repeat;
     }
