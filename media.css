@@ -326,7 +326,7 @@ header{
 .right{
     width: 100%;
     position: absolute;
-    top: 155px;
+    top: 225px;
     left: 0;
     background-color: rgba(255, 242, 225, 0.007);
     backdrop-filter: blur(10px);
@@ -437,5 +437,112 @@ header{
 @media(max-width:383px){
     .footer-bottom-p{
     font-size: 14px;
+    }
+}
+
+/* --- New Responsive Overrides --- */
+
+@media (max-width: 1024px) {
+    /* Reset fixed widths to fluid */
+    .whai-is-big-text, 
+    .big-text-container, 
+    .text-img-every, 
+    .text-img-sky, 
+    .para,
+    .feature-right-p,
+    .feature-2-p,
+    .feature-2-h6,
+    .testm-right-p,
+    .letest-left-p,
+    .letest-left-p2,
+    .letest-right-h6,
+    .letest-right-p,
+    .all-in-one-container .big-text-container {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    
+    .all-div {
+        width: 100%;
+        height: auto;
+        padding: 40px 20px;
+    }
+    
+    .feature-left-img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        padding: 20px 0;
+    }
+    
+    .hero-title h1 {
+        font-size: 36px;
+        text-align: center;
+    }
+    .para {
+        text-align: center;
+    }
+    .hero-left {
+        align-items: center;
+    }
+    .btns {
+        justify-content: center;
+    }
+    
+    .testm-right-img {
+        width: 100%;
+        height: auto;
+    }
+    .p-div {
+        width: 100%;
+        height: auto;
+        position: relative;
+        right: 0;
+        bottom: 0;
+        margin-top: 20px;
+        padding: 20px;
+    }
+    .red-div {
+        height: auto;
+        min-height: 100%;
+        display: none;
+    }
+    .img-29, .p-12, .p-g, .vertical {
+        position: static;
+        text-align: center;
+        display: block;
+        margin: 10px auto;
+        padding: 0;
+    }
+    .testm-right-p {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .letest-left-img, .img-size {
+        width: 100%;
+        height: auto;
+    }
+    
+    .button-blog, .button-blog-2 {
+        position: relative;
+        left: 0;
+        bottom: 0;
+        margin: 10px 0;
+        display: inline-block;
+    }
+    
+    .em-sub {
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+    }
+    .email {
+        width: 100%;
+        max-width: 300px;
     }
 }
